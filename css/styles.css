@@ -1,75 +1,107 @@
 body {
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
 }
 
-a {
-	text-decoration: none;
-	color:white;
-}
 nav {
-	clear:both;
-	min-height:50px;
-	margin:0;
-	padding:0;
-	width:100%;
+	clear: both;
+	min-height: 50px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 	background: #542F38;
 }
 
-.nav {
-	
-	margin-left: 30%;
-	margin-top:0;
-	margin-bottom:0;
-	padding:0;
-	list-style-type:none;
+.nav {	
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	list-style-type: none;
 }
+
 .nav li {
-	display:inline-block;
-	padding:15px;
+	display: inline-block;
+	padding: 15px;
 }
 
 li {
-	list-style-type:none;
+	list-style-type: none;
 }
 
-.page-container {
-	width: 1200px;
-	height: 100%;
+.myAlbum {
 	margin: 0 auto;
-	display: inline-block;
 }
 
-.page-container ul {
-	margin-left: 31.5%;
+.title {
+	padding-left: 2%;
+	display: inline-block;
+	color: #fff;
+	font-size: 3em;
+	margin-right: 5%;
+}
+
+#page-container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#page-container ul {
+	margin-left: 20%;
 	margin-top: 5%;
 }
 
-.page-container li {
-	float:left;
+#page-container li {
+	float: left;
 	display: inline-block;
 }
 
 
-
-/*jquery*/
+/*For jQuery*/
 
 .album1, .album2, .album3 {
-	display:none;
+	display: none;
 }
 
 .show {
-	display:block;
+	display: block;
 }
 
 ul li a img.magnify {
-	width:400px;
-	height:400px;
+	width: 400px;
+	height: 400px;
 }
 
 .hide {
 	display: none;
 }
+
+
+
+@media screen and (max-width: 750px) {
+	.nav li {
+		padding: 0px;
+	}
+
+	.title {
+		padding: 2%;
+		display: block;
+		font-size: 1.5em;
+	}
+
+	#page-container ul {
+		margin-left: 0;
+	}
+
+	ul li a img.magnify {
+		width: 250px;
+		height: 250px;
+	}
+}
+
+
+
+
 
 
 

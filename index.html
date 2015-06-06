@@ -6,46 +6,45 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<nav>
-	<ul class="nav">
-		<li><a rel="album1" href=""><img src='images/forklift.jpg' width='100px' height='100px'></a></li>
-		<li><a rel="album2" href=""><img src='images/mountain.jpg' width='100px' height='100px'></a></li>
-		<li><a rel="album3" href=""><img src='images/tree.jpg' width='100px' height='100px'></a></li>
-
-	</ul>
-</nav>
-
-<section class="page-container">
-	<div class="album1">
-		<ul>
-			<li><a href=""><img src='images/forklift.jpg' width='100px' height='100px'></a></li>
-			<li><a href=""><img src='images/badguy.jpg' width='100px' height='100px'></a></li>
-			<li><a href=""><img src='images/bass.jpg' width='100px' height='100px'></a></li>
+	<nav>
+		<ul class="nav">
+			<div class="title">
+				My Photo Album
+			</div>
+			<li class="myAlbum"><a rel="album1" href=""><img src='images/forklift.jpg' width='100px' height='100px'></a></li>
+			<li class="myAlbum"><a rel="album2" href=""><img src='images/mountain.jpg' width='100px' height='100px'></a></li>
+			<li class="myAlbum"><a rel="album3" href=""><img src='images/tree.jpg' width='100px' height='100px'></a></li>
 		</ul>
-	</div>
-	<div class="album2">
-		<div>
+	</nav>
+	<div id="page-container">
+		<div class="album1 picAlbum">
 			<ul>
-				<li><a href=""><img src='images/mountain.jpg' width='100px' height='100px'></a></li>
-				<li><a href=""><img src='images/dawn.jpg' width='100px' height='100px'></a></li>
-				<li><a href=""><img src='images/dancing.jpg' width='100px' height='100px'></a></li>
+				<li><a href=""><img src='images/forklift.jpg' width='100px' height='100px'></a></li>
+				<li><a href=""><img src='images/badguy.jpg' width='100px' height='100px'></a></li>
+				<li><a href=""><img src='images/bass.jpg' width='100px' height='100px'></a></li>
 			</ul>
 		</div>
-	</div>
-	<div class="album3">
-		<div>
-			<ul>
-				<li><a href=""><img src='images/tree.jpg' width='100px' height='100px'></a></li>
-				<li><a href=""><img src='images/desert.jpg' width='100px' height='100px'></a></li>
-				<li><a href=""><img src='images/field.jpg' width='100px' height='100px'></a></li>
-			</ul>
+		<div class="album2 picAlbum">
+			<div>
+				<ul>
+					<li><a href=""><img src='images/mountain.jpg' width='100px' height='100px'></a></li>
+					<li><a href=""><img src='images/dawn.jpg' width='100px' height='100px'></a></li>
+					<li><a href=""><img src='images/dancing.jpg' width='100px' height='100px'></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="album3 picAlbum">
+			<div>
+				<ul>
+					<li><a href=""><img src='images/tree.jpg' width='100px' height='100px'></a></li>
+					<li><a href=""><img src='images/desert.jpg' width='100px' height='100px'></a></li>
+					<li><a href=""><img src='images/field.jpg' width='100px' height='100px'></a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
-</section>
 
-
-
-<script src="js/lib/jquery-1.11.0.min.js"></script>
-<script src="js/site.js"></script>
+	<script src="js/lib/jquery-1.11.0.min.js"></script>
+	<script src="js/site.js"></script>
 </body>
 </html>
